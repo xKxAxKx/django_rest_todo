@@ -27,13 +27,11 @@
 
         <div id="todo-list" class="row">
             <div class="col-sm-4 col-sm-offset-4">
-
                 <div class="checkbox" ng-repeat="todo in todos">
                     <label>
                         <input type="checkbox" ng-click="deleteTodo(todo.id)"> {{ todo.text }}
                     </label>
                 </div>
-
             </div>
         </div>
 
@@ -41,16 +39,13 @@
             <div class="col-sm-8 col-sm-offset-2 text-center">
                 <form>
                     <div class="form-group">
-
                         <input type="text" class="form-control input-lg text-center" placeholder="Todoを入力してください" ng-model="formData.text">
                     </div>
-
                     <button type="submit" class="btn btn-primary btn-lg" ng-click="createTodo()">追加</button>
                 </form>
             </div>
         </div>
 
     </div>
-
 </body>
 </html>

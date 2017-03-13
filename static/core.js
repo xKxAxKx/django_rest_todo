@@ -1,4 +1,11 @@
 var djangoTodo = angular.module('djangoTodo', []);
+// djangoTodo.config(['$httpProvider', function($httpProvider) {
+//     $interpolateProvider.headers.post.startSymbol('{$');
+//     $interpolateProvider.headers.post.endSymbol('$}');
+//     $httpProvider.defaults.headers.post.xsrfCookieName = 'csrftoken';
+//     $httpProvider.defaults.headers.post.xsrfHeaderName = 'X-CSRFToken';
+// }]).run(run);
+
 
 function mainController($scope, $http) {
 
